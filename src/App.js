@@ -12,6 +12,7 @@ function App() {
       <Provider store={store}>
 <Router>
   <Navbar/>
+  
   <Routes>
     <Route path='/Home' element={<Home/>}></Route>
     <Route path='/Cart' element={<Cart/>}></Route>
